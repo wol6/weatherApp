@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/weather.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="search" spellcheck="false" placeholder="enter city name">
+            <button><img src="/img/search.png" class="searchBtn"></button>
+        </div>
+        <div class="error">
+            <p>city not found</p>
+        </div>
+        <div class="weather">
+            <!-- src="/img/clear.png" -->
+            <img class="weatherIcon">  
+            <div class="weatherType">
+                <p ></p>
+            </div>
+  
+            <h1 class="temp">21°C</h1>
+            <h2 class="city">Mumbaii</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="/img/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="/img/wind.png" alt="">
+                    <div>
+                        <p class="wind">10 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/weather.js"></script>
+</body>
+
+</html>
